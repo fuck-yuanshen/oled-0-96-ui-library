@@ -1,6 +1,6 @@
-# KK_UI Runtime
+# 0.96 寸 OLED UI 库
 
-KK_UI 是依赖 [KK_OLED](https://gitee.com/keysking/kk_oled) 的轻量级、单例、无堆分配 OLED 菜单 UI。运行时源码位于 `include/` 与 `src/`，应用页面、业务事件、字体和图标由项目层持有。
+这是一个面向 0.96 寸、128×64 单色 OLED 屏幕的轻量级 UI 库，底层依赖 [KK_OLED](https://gitee.com/keysking/kk_oled)。库采用单例、无堆内存分配设计，运行时源码位于 `include/` 与 `src/`，应用页面、业务事件、字体和图标由项目层持有。
 
 第一版内置：首页图标选择器、可嵌套普通菜单、只读信息页、全屏自定义页、整数/开关编辑、确认框、消息框、Toast、事件队列和无状态绘制辅助。
 
